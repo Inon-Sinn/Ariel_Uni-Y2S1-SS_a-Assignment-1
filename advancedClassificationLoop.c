@@ -20,7 +20,17 @@ int isArmstrong(int n){
 }
 
 int isPalindrome(int n){
-    return 0;
+    int r,sum=0,temp;       
+    temp=n;    
+    while(n>0)    
+    {    
+        r=n%10;    
+        sum=(sum*10)+r;    
+        n=n/10;    
+    }    
+    if(temp==sum)    
+        return 1;      
+    return 0;  
 }
 
 int digits(int n){
