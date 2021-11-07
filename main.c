@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "NumClass.h"
 
+
+
 int main(){ 
     
     
@@ -22,23 +24,26 @@ int main(){
     }
     printf("\n");
     //Prime Numbers
-    printf("The Palindromes are:");
+    printf("The Prime numbers are:");
     for(start;start<=end;start++){
         if(isPalindrome(start))
             printf(" %d",start);
     }
     printf("\n");
     //Strong Numbers
-    printf("The Palindromes are:");
+    printf("The Strong numbers are:");
     for(start;start<=end;start++){
         if(isPalindrome(start))
             printf(" %d",start);
     }
     printf("\n");
     return 0;
-    
-
-
-    
 
 }
+
+
+
+
+
+
+
