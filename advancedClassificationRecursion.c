@@ -1,4 +1,4 @@
-//#include "NumClass.h"
+#include "NumClass.h"
 
 int digits(int n);
 
