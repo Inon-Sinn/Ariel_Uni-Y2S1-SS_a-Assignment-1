@@ -1,9 +1,9 @@
-#include "NumClass.h"
+//#include "NumClass.h"
 
-int isArmstrong(int){
+int isArmstrong(int n){
     return 0;
 }
 
-int isPalindrome(int){
+int isPalindrome(int n){
     return 0;
 }

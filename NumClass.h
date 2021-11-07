@@ -1,13 +1,13 @@
 #ifndef _NUMCLASS_
 #define _NUMCLASS_
 
-    int isArmstrong(int);
+    int isArmstrong(int n);
 
-    int isPalindrome(int);
+    int isPalindrome(int n);
 
-    int isPrime(int);
+    int isPrime(int n);
 
-    int isStrong(int);
+    int isStrong(int n);
 
 
     #endif
