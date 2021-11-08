@@ -5,7 +5,6 @@ int main(){
     
     
     int start=0,end=0,tempS;
-    printf("please enter 2 numbers \n");
     scanf("%d%d",&start, &end);
     //Armstrong numbers
     printf("The Armstrong numbers are:");
