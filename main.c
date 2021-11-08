@@ -1,20 +1,6 @@
 #include <stdio.h>
 #include "NumClass.h"
 
-int isPrime(int n){
-    return 0;
-}
-
-int isArmstrong(int n){
-    return 0;
-}
-
-int isPalindrome(int n);
-
-int isStrong(int n){
-    return 0;
-}
-
 int main(){ 
     
     
@@ -52,8 +38,6 @@ int main(){
     return 0;
 
 }
-
-
 
 
 

@@ -6,6 +6,8 @@ int Pow(int n,int d);
 
 int ArmstrongRec(int n,int dts);
 
+int reverse(int n);
+
 
 int isArmstrong(int n){
     int temp = n;
@@ -26,7 +28,22 @@ int ArmstrongRec(int n,int dts){
 }
 
 int isPalindrome(int n){
+    int temp = n,rev = reverse(temp);
+    if(n == rev)
+        return 1;
     return 0;
+}
+
+
+int reverse(int n){
+    if(n==0)
+        return 0;
+    int dts = digits(n),sum = n%10,i=0;
+    for(i=1;i<dts;i++){
+        sum = sum*10;
+    }
+    n = n/10;
+    return sum+reverse(n);
 }
 
 int digits(int n){
