@@ -1,5 +1,7 @@
 #include "NumClass.h"
 
+int fact(int r);
+
 int isPrime(int n){
     int i,m=n/2;       
     for(i=2;i<=m;i++)    
